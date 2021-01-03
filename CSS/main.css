@@ -1,0 +1,266 @@
+
+@font-face{
+	
+	font-family: evogria ;
+	src: url(../font/Evogria.otf);
+}
+@font-face{
+	
+	font-family: cool ;
+	src: url(../font/cool.ttf);
+}
+@keyframes cambio {
+
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+ 
+body{
+	margin:0px;
+	font-size: 18px;
+	color:white;
+	background-image: url(../img/descarga.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.inicio{
+	background-image: url(../img/setup4.jpg);
+}
+nav{
+	background-color:black;
+	width:100%;
+	height: 40px;
+	overflow:hidden;
+	opacity:0.2;
+	transition-duration:0.6s;   
+}
+nav:hover{
+	opacity:1;
+}
+ul{
+	margin:0px;
+}
+li{
+	float:left;
+	width: 15%;
+	text-align: center;
+	color:aquamarine;
+	list-style: none;
+	margin-top:-30px;
+	transition-duration: 0.6s;
+}
+li:hover{
+	margin-top:15px;
+}
+a{
+	text-decoration: none;
+	font-family: evogria;
+	color: #AF7BFF;
+}
+.icon{
+	width: 30px;
+	height: 30px;
+}
+.capa_ico{
+	width: 100%;
+	height: 30px;
+	float:left;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	cursor:pointer;
+	position:relative;
+	top:-15px;
+}
+.mapa{
+	width: 400px;
+	height: 350px;
+	float: left;
+	margin-left: 250px;
+	margin-right:-60px;
+}
+.titulo{
+	text-align: center;
+	font-family: evogria;
+	font-size: 50px
+}
+.info {
+	font-family: cool;
+	font-size: 26px;
+	text-align: left;
+	/*----*/
+	float: left;
+	margin-left: 150px;
+	margin-right: 60px;
+	color: white;
+
+}
+.info img {
+	align-items: right;
+}
+.formulario{
+	font-family: cool;
+	float: bottom;
+}
+.menu{
+	text-align: center;
+	font-family: evogria;
+	font-size: 45px;
+	color: white;
+}
+.dino{
+	width: 1050px;
+	height: 600px;
+	margin-left: -150px;
+	float:left; 
+	margin-top: -30; 
+}
+
+.foto{
+	width: 100px;
+	height:100px;
+}
+.quiensomos{
+	text-align: center;
+	font-family: cool;
+	font-size: 20px
+	color: white;
+}
+.centr{
+	align-content: center;
+}
+.tabla{
+	
+	
+	text-align: center;
+	align-items: center;
+
+}
+.info2 {
+	font-family: cool;
+	font-size: 26px;
+	text-align: left;
+	/*----*/
+	float: left;
+	margin-left: 200px;
+	margin-right:300px;
+	color: white;
+
+}
+div.content{
+ width: 100%;
+}
+div.box {
+  box-sizing: border-box;
+  width: 50%;
+  border: 5px ;
+  float: left;
+}
+
+.dinotitulo{
+	float: left;
+}
+
+.video{
+	width: 1000px;
+	height: 300px;
+	text-align: center;
+}
+div.box2 {
+  box-sizing: border-box;
+  width: 25%;
+  border: 5px ;
+  float: left;
+  text-align: center;
+  font-family:cool;
+  font-size: 15px;
+  color: white;
+}
+.tablaquienessomos{
+	border: none;
+	text-align: center;
+	margin: auto;
+}
+
+
+.slider{
+	width: 1080px;
+	height: 500px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.sliderul{
+	display: flex;
+	padding: 0;
+	width: 400%; /*hay que poner 100 por cada imagen que pongo*/ 
+	animation: cambio 20s infinite alternate linear;
+	animation-timing-function: ease-in;
+
+}
+.sliderli{
+	width: 100%;
+	list-style: none;
+}
+.sliderimg{
+	width: 1080px;
+	height: 500px;
+	
+
+}
+.dinomenu{
+	margin-top: -40px;
+	float: left;
+	width: 400px;
+	height: 200px;
+	display: inline-block;
+	margin-left: 650px;
+	margin-right:-200px;
+}
+.menu2{
+	text-align: center;
+	margin-left: -650px;
+	margin-right:200px;
+}
+
+.imgempresa{
+	width: 900px;
+	height: 400px;
+	text-align: center;
+}
+.gif{
+	width: 900px;
+	height: 400px;
+	text-align: center;
+	
+}
+}
+.box3{
+  box-sizing: border-box;
+  height: 95%;
+  width: 75%;
+  text-align: center;
+  float: right;
+  margin: auto;
+}
+.box4{
+	height: 95%;
+    width: 5%;
+    margin-left:2%;
+    float: left;
+}
+.producto{
+	font-family: evogria;
+	color: white;
+}
